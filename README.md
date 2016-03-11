@@ -2,17 +2,17 @@
 
  [![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://en.wikipedia.org/wiki/MIT_License)
 
-**Author:** _\<your name\>_
+Eddie Wadors
 
-**Due date:** _\<date\>_
+3/11/16
 
 ## Description
 
-_\<Give a description of the assignment here. Often this will be copied from the text.\>_
+Used comments to describe what different pieces of code form the textbook did, and also created programs allowing us to use turtle to let users build polygons and stars.
 
 ## What I Learned from This
 
-_\<Explain what you learned from this assignment. This should be in your own words.\>_
+I learned how to use loops more effectively by allowing them to do a lot of smaller functions within larger functions, I also learned more about booleans.
 
 ## Honor Pledge
 
@@ -22,5 +22,6 @@ I pledge that all the work in this repository is my own with only the following 
 * Code borrowed from another source, documented with correct attribution in the code and summarized here.
 
 Signed,
+Eddie Wadors
 
 _\<your name\>_
