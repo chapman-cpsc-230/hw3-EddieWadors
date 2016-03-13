@@ -16,7 +16,14 @@ leng = int(side_len)
 Eddie = turtle.Pen()
 for x in range(num_tips):
     Eddie.forward(leng)
-    Eddie.right((720+180*(num_tips-5))/num_tips)
+    ### MAM: This only gets it right for a pentagram. No other stars are correct.
+    ### Eddie.right((720+180*(num_tips-5))/num_tips)
+    ### Try this instead:
+    ### In a pentagram, the turtle spins a total of 2*360.0 rotations
+    ### In a heptagram, the turtle spins a total of 3*360.0 rotations
+    ### In a nonogra, the turtle spins a total of 4*360.0 rotations
+    ### So,
+    Eddie.right((num_tips/2)*360.0/num_tips)
 
 end_prog = raw_input("Please press enter to exit window..." )
 turtle.bye()
